@@ -52,7 +52,7 @@ module.exports = {
     ANTI_VV: process.env.ANTI_VV || "true",                     // Block view-once messages?
     DELETE_LINKS: process.env.DELETE_LINKS || "true",          // Auto-delete links?
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox",          // Log deleted messages (or 'same' to resend)
-    ANTI_BOT: process.env.ANTI_BOT || "true",
+    ANTI_BOT: process.env.ANTI_BOT || "false",
     PM_BLOCKER: process.env.PM_BLOCKER || "true",
 
     // ===== BOT BEHAVIOR & APPEARANCE =====
